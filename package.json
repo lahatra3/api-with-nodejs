@@ -1,0 +1,28 @@
+{
+  "name": "api-with-nodejs",
+  "version": "1.0.0",
+  "description": "api with Nodejs but no frameworks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lahatra3/api-with-nodejs.git"
+  },
+  "keywords": [],
+  "author": "lahatra3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lahatra3/api-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/lahatra3/api-with-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mysql2": "^2.3.3"
+  }
+}
